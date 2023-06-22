@@ -24,6 +24,7 @@ function subscribe(){
         error.style.display = 'block'
         input.style.backgroundColor = 'rgb(250, 218, 218)'
         input.style.border = '1px solid rgb(255, 0, 0)'
+        input.style.color = 'rgb(255, 0, 0)'
         
     }else{
        
