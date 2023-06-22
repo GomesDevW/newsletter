@@ -1,5 +1,5 @@
-const test = document.querySelector("#button")
-const test2 = document.querySelector("#message-button")
+const submitBtn = document.querySelector("#button")
+const demissBtn = document.querySelector("#message-button")
 const container = document.querySelector('.container')
 const message = document.querySelector('.message-container')
 const email = document.querySelector('#user-email')
@@ -46,5 +46,5 @@ function demiss(){
     input.value = ""
 }
 
-test.addEventListener('click', subscribe)
-test2.addEventListener('click', demiss)
+submitBtn.addEventListener('click', subscribe)
+demissBtn.addEventListener('click', demiss)
